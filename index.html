@@ -1,70 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nail Inspo</title>
+    <title>Nail Inspos</title>
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
 
-    <!-- 1. Internal CSS (Used for Paragraph 2, Highlight 2, and Building 2) -->
     <style>
-        /* Styles for Paragraph 2: Orange and Bold */
-        .p2 { 
-            color: orange; 
-            font-weight: bold; 
+        /* Internal CSS Styles */
+        .internal-p {
+            color: orange;
+            font-weight: bold;
         }
-
-        /* Styles for Highlight 2 (h1): Internal Color */
-        .h1-internal { 
-            color: #ff00ff; /* Example Color */
+        .internal-h1 {
+            color: #ff1493; /* Hot Pink */
         }
-
-        /* Styles for Building 2 (h3): Internal Color */
-        .h3-internal { 
-            color: #ff4500; /* Example Color */
+        .internal-h3 {
+            color: #ffb6c1; /* Light Pink */
         }
     </style>
-
-    <!-- 2. External CSS Link (Used for Paragraph 3, Highlight 3, and Building 3) -->
-    <!-- Note: You would normally have a separate file named 'style.css' -->
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Nail Inspiration</h1>
+    <h1>Nail Inspos</h1>
 
-    <div class="section">
-        <h2>Paragraphs</h2>
-        <!-- Inline CSS: Blue and Italics -->
-        <p style="color: blue; font-style: italic;">Paragraph 1: Classic Red Manicure</p>
-        
-        <!-- Internal CSS: Orange and Bold (applied via class) -->
-        <p class="p2">Paragraph 2: Pastel Blue Tips</p>
-        
-        <!-- External CSS: Purple and Underline -->
-        <p class="p3-external" style="color: purple; text-decoration: underline;">Paragraph 3: Chrome Finish Vibes</p>
-    </div>
+    <!-- Paragraphs Section -->
+    <p style="color: blue; font-style: italic;">Paragraph 1: Style using inline css (Blue, Italics)</p>
+    <p class="internal-p">Paragraph 2: Style using internal css (Orange, Bold)</p>
+    <p class="external-p">Paragraph 3: Style using external css (Purple, Underline)</p>
 
-    <div class="section">
-        <!-- Inline CSS -->
-        <h1 style="color: #d81b60;">Highlight 1: Trend Alert</h1>
-        
-        <!-- Internal CSS -->
-        <h1 class="h1-internal">Highlight 2: Seasonal Favorites</h1>
-        
-        <!-- External CSS (mocked with inline for demo) -->
-        <h1 style="color: #4a148c;">Highlight 3: DIY Art</h1>
-    </div>
+    <hr>
 
-    <div class="section">
-        <!-- Inline CSS -->
-        <h3 style="color: #00796b;">Building 1: Base Coat Basics</h3>
-        
-        <!-- Internal CSS -->
-        <h3 class="h3-internal">Building 2: Selecting Colors</h3>
-        
-        <!-- External CSS (mocked with inline for demo) -->
-        <h3 style="color: #1a237e;">Building 3: Top Coat Finishing</h3>
-    </div>
+    <!-- Highlights Section -->
+    <h1 style="color: #f08080;">Highlight 1: Style using inline css (Light Coral)</h1>
+    <h1 class="internal-h1">Highlight 2: Style using internal css (Hot Pink)</h1>
+    <h1 class="external-h1">Highlight 3: Style using external css (Deep Pink)</h1>
+
+    <hr>
+
+    <!-- Building Section -->
+    <h3 style="color: #ff8c00;">Building 1: Inline css (Dark Orange)</h3>
+    <h3 class="internal-h3">Building 2: Internal css (Light Pink)</h3>
+    <h3 class="external-h3">Building 3: External css (Pale Violet Red)</h3>
 
 </body>
 </html>
