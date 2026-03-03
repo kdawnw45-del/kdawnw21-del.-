@@ -1,0 +1,13 @@
+/* External CSS Styles */
+.external-p {
+    color: purple;
+    text-decoration: underline;
+}
+
+.external-h1 {
+    color: #ff69b4; /* Deep Pink */
+}
+
+.external-h3 {
+    color: #db7093; /* Pale Violet Red */
+}
