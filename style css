@@ -1,13 +1,15 @@
-/* External CSS Styles */
+/* Styling for Paragraph 3 */
 .external-p {
     color: purple;
     text-decoration: underline;
 }
 
+/* Styling for Highlight 3 */
 .external-h1 {
-    color: #ff69b4; /* Deep Pink */
+    color: #ff69b4; /* Pink for nails */
 }
 
+/* Styling for Building 3 */
 .external-h3 {
-    color: #db7093; /* Pale Violet Red */
+    color: #8a2be2; /* Blue-Violet */
 }
